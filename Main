@@ -1,0 +1,15 @@
+package Morales_Ruiz_Joseline;
+public class Main {
+    public static void main (String []args){
+        
+        QuickSort ob = new QuickSort();
+        
+        System.out.println("Los numeros en tu documento son: ");
+        ob.Leer();
+        ob.Mostrar();
+        ob.QuickSort(0,ob.Lista.size()-1);
+        
+        System.out.println("Los numeros ordenados son: ");
+        ob.Mostrar();
+    } 
+}
